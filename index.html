@@ -112,14 +112,16 @@
                 <li>
                   <a href="./about.html" class="av-nav-link">About us</a>
                 </li>
-                <li class="resource" onclick="resources()">
-                  <div class="res-txt-icon">
-                    <span>Resources</span>
-                    <span class="res-arrow-btn">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                        <path d="M12 14L8 10H16L12 14Z"></path>
-                      </svg>
-                    </span>
+                <li class="resource" onclick="resources()" tabindex="0" onkeydown="handleKeydown(event)">
+                    <div class="res-txt-icon">
+                     
+                        <span>Resources</span>
+                        <span class="res-arrow-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path d="M12 14L8 10H16L12 14Z"></path>
+                            </svg>
+                        </span>
+                  
                   </div>
 
                   <div class="res direction-column" ref="resources">
