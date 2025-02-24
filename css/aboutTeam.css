@@ -1,0 +1,131 @@
+.team-container {
+  width: 100%;
+  height: auto;
+  background: var(--av-PrimaryText);
+}
+
+.team-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.team-head {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 215%; /* 86px */
+  padding-block: 40px;
+  background: linear-gradient(
+    89deg,
+    #ff2747 -10.62%,
+    #2e3768 428.68%,
+    #10121f 428.73%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.team-profiles {
+  width: 100%;
+  height: auto;
+  padding-bottom: 90px;
+}
+
+.team-profile-top {
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 8.5rem;
+}
+
+.team-profile-wrapper {
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+}
+
+.profile-pic img {
+  border-radius: 24px;
+  border: 2px solid #333;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.linkedIn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.profile-deatils {
+  width: 100%;
+  position: absolute;
+  bottom: 14px;
+  left: 50.2%;
+  transform: translate(-50%, -36%);
+  z-index: 1;
+}
+
+.tharun img {
+  width: 335px;
+  height: 420px;
+}
+
+.profile-name {
+  color: var(--av-PrimaryText);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile-role {
+  color: var(--Surface-ModalSheet, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 170%; /* 30.6px */
+}
+
+.profile-back {
+  width: 100%;
+  height: 147px;
+  border-radius: 27px;
+  background: linear-gradient(
+    180deg,
+    rgba(101, 101, 101, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+/* =========MEDIA QUERIES ===================== */
+
+/* =============MOBILE SMALL SCREENS================= */
+
+@media only screen and (max-width: 400px) {
+  .team-head {
+    font-size: 32px;
+  }
+
+  .team-profile-top {
+    gap: 2.5rem;
+  }
+}

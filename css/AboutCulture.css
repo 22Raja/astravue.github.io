@@ -1,0 +1,225 @@
+.culture-container {
+  width: 100%;
+  height: auto;
+  background-color: var(--av-backgroud-color);
+  overflow: hidden;
+}
+
+.culture-head {
+  padding-top: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.culture-head-para {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 66px; /* 50px */
+  padding-bottom: 10px;
+  background: linear-gradient(
+    89deg,
+    #ff2747 -10.62%,
+    #2e3768 428.68%,
+    #10121f 428.73%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.culture-desc-para {
+  width: 55%;
+  color: var(--av-PrimaryText);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 180%; /* 36px */
+}
+
+.culture-cards {
+  width: 100%;
+  height: auto;
+  padding-block: 6rem;
+  position: relative;
+}
+
+.culture-cards-top {
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card-wrapper {
+  width: 30%;
+  height: auto;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #0b1412;
+  z-index: 1;
+}
+
+.card-culture {
+  padding: 32px;
+  gap: 1rem;
+}
+
+.card-title {
+  color: var(--av-PrimaryText);
+  /* text-align: center; */
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 128%; /* 30.72px */
+}
+
+.card-desc {
+  color: #e2e3f8;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 180%; /* 36px */
+}
+
+.card-wrapper2 {
+  background: #14110b;
+}
+
+.card-wrapper3 {
+  background: #140b11;
+}
+
+.card-desc5 {
+  width: 100%;
+}
+
+.culture-gredient {
+  width: 497.548px;
+  height: 437px;
+  border-radius: 497.548px;
+  background: rgba(91, 110, 211, 0.5);
+  filter: blur(147.54214477539062px);
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* =========MEDIA QUERIES ===================== */
+
+/* =============MOBILE SMALL SCREENS================= */
+
+@media only screen and (max-width: 400px) {
+  .culture-head {
+    width: 95%;
+    align-items: start;
+    padding-left: 20px;
+  }
+
+  .culture-head-para {
+    font-size: 32px;
+  }
+
+  .culture-desc-para {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .culture-cards {
+    padding-block: 3rem;
+  }
+
+  .card-wrapper {
+    width: 100%;
+  }
+
+  .card-culture {
+    padding: 30px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+}
+
+/* =============MOBILE Large SCREENS================= */
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .culture-head {
+    width: 95%;
+    align-items: start;
+    padding-left: 20px;
+  }
+
+  .culture-head-para {
+    font-size: 32px;
+  }
+
+  .culture-desc-para {
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .culture-cards {
+    padding-block: 3rem;
+  }
+
+  .card-wrapper {
+    width: 100%;
+  }
+
+  .card-culture {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+}
+
+/* =============TBLETS SMALL SCREENS================= */
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .culture-head-para {
+    font-size: 32px;
+  }
+
+  .culture-desc-para {
+    width: 77%;
+    font-size: 14px;
+  }
+
+  .culture-cards {
+    padding-block: 4rem;
+  }
+
+  .card-wrapper {
+    width: 48%;
+  }
+
+  .card-culture {
+    padding: 30px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+}

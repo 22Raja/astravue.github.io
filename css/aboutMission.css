@@ -1,0 +1,147 @@
+.mission-container {
+  width: 100%;
+  height: auto;
+  background: var(--av-PrimaryText);
+}
+
+.mission-wrapper {
+  width: 86%;
+  height: auto;
+  gap: 2.5rem;
+  padding-block: 5rem;
+  padding-bottom: 0rem;
+}
+
+.mission-left {
+  width: 100%;
+  height: auto;
+  flex: 1 87%;
+}
+
+.mission-right {
+  flex: 1 100%;
+  margin-top: -34px;
+}
+
+.mission-right-head .mission-head-para {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 66px; /* 50px */
+  background: var(
+    --G1,
+    linear-gradient(90deg, #ff2747 -2.66%, #2e3768 136.07%, #10121f 136.09%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+}
+
+.mission-right-desc .mission-desc {
+  width: 100%;
+  color: #2f2f2f;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; /* 36px */
+  padding-bottom: 20px;
+}
+
+/* .mission-right-desc .mission-desc.para3 {
+  font-weight: 600;
+} */
+
+/* =========MEDIA QUERIES ===================== */
+
+/* =============MOBILE SMALL SCREENS================= */
+
+@media only screen and (max-width: 400px) {
+  .mission-wrapper {
+    flex-flow: column-reverse;
+    padding-bottom: 17px;
+  }
+
+  .mission-right-head .mission-head-para {
+    font-size: 32px;
+  }
+
+  .mission-right-desc .mission-desc {
+    font-size: 16px;
+  }
+
+  .mission-left img {
+    width: 100%;
+    height: auto;
+    padding-top: 34px;
+  }
+
+  .team-profile-top{
+    gap: 4.5rem;
+  }
+}
+
+/* =============MOBILE Large SCREENS================= */
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .mission-wrapper {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+
+  .mission-right-head .mission-head-para {
+    font-size: 32px;
+  }
+
+  .mission-right-desc .mission-desc {
+    font-size: 16px;
+  }
+
+  .mission-left img {
+    width: 100%;
+    height: auto;
+    padding-top: 34px;
+  }
+
+  .team-profiles .team-profile-top{
+    gap: 4.5rem;
+  }
+}
+
+/* =============TBLETS SMALL SCREENS================= */
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .mission-wrapper {
+    width: 95%;
+    gap: 3rem;
+  }
+
+  .mission-right-head .mission-head-para {
+    font-size: 32px;
+  }
+
+  .mission-right-desc .mission-desc {
+    font-size: 14px;
+  }
+
+  .mission-left img {
+    width: 100%;
+    height: auto;
+    padding-top: 34px;
+  }
+}
+
+/* =============LAPTOP SMALL SCREENS================= */
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .mission-wrapper {
+    width: 95%;
+    gap: 3rem;
+  }
+
+  .mission-right-desc .mission-desc {
+    font-size: 16px;
+  }
+
+}

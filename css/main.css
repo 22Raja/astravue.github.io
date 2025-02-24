@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-display: swap;
+}
+
+:root {
+  --av-backgroud-color: #10121f;
+  --av-PrimaryText: #ffffff;
+  --av-btns-color: #ff2747;
+  --av-secondaryText: #b9b9b9;
+  --av-agile-primaryText: #202d3f;
+  --av-agile-secondaryText: #6b7280;
+  --av-power-background: #0b0c14;
+}
+
+button {
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.btns {
+  width: 14.125rem;
+  height: 3.75rem;
+  background: var(--av-btns-color);
+  border-radius: 46px;
+  box-shadow: 0px 0.125rem 0.25rem 0rem rgba(21, 29, 40, 0.03),
+    0rem 0.125rem 0rem 0rem rgba(255, 255, 255, 0.08) inset;
+  color: var(--av-PrimaryText);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.btns:hover {
+  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.2);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.direction-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.disfle {
+  display: flex;
+}
